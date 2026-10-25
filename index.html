@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XYZ Tuition Class | Quality Coaching for Classes 9–12 & JEE/NEET</title>
+    <meta
+      name="description"
+      content="XYZ Tuition Class offers small-batch coaching for Classes 9–10, 11–12 Science, and JEE/NEET with experienced teachers and weekly tests."
+    />
+
+    <!-- Google Font: Poppins (regular, medium, semi-bold, bold) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- =========================================================
+         HEADER: logo text + navigation
+         The checkbox + label pattern opens a mobile menu with CSS only
+         ========================================================= -->
+    <header class="site-header">
+      <div class="container header-inner">
+        <!-- Logo is text only (no image file needed) -->
+        <a class="logo" href="#home">
+          <span class="logo-mark">XYZ</span>
+          <span class="logo-text">Tuition Class</span>
+        </a>
+
+        <!-- Hidden checkbox: when checked, the nav becomes visible on phones -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="main-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- =========================================================
+           HERO: first impression — headline, tagline, demo button
+           ========================================================= -->
+      <section id="home" class="hero">
+        <div class="container hero-inner">
+          <p class="eyebrow">Trusted coaching since 2012</p>
+          <h1>Learn with clarity. Score with confidence.</h1>
+          <p class="tagline">
+            Personal attention, structured notes, and weekly tests for Classes 9–12
+            and competitive exams — all under one roof at XYZ Tuition Class.
+          </p>
+          <a class="btn btn-accent" href="#contact">Book a Free Demo Class</a>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           COURSES: three cards with subjects and batch timings
+           ========================================================= -->
+      <section id="courses" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">What we teach</p>
+            <h2>Our Courses</h2>
+            <p>Choose a batch that matches your class and exam goals.</p>
+          </header>
+
+          <div class="card-grid courses-grid">
+            <!-- Course 1 -->
+            <article class="card">
+              <p class="card-badge">Foundation</p>
+              <h3>Class 9–10</h3>
+              <p class="card-lead">Board-focused concepts with extra practice for school exams.</p>
+              <h4>Subjects</h4>
+              <ul class="feature-list">
+                <li>Mathematics</li>
+                <li>Science (Physics, Chemistry, Biology)</li>
+                <li>English & Social Science support</li>
+              </ul>
+              <h4>Batch timings</h4>
+              <p class="meta">Weekdays 4:00 PM – 6:00 PM<br />Weekend 9:00 AM – 12:00 PM</p>
+            </article>
+
+            <!-- Course 2 -->
+            <article class="card">
+              <p class="card-badge">Senior</p>
+              <h3>Class 11–12 (Science)</h3>
+              <p class="card-lead">PCM / PCB streams aligned with CBSE and state boards.</p>
+              <h4>Subjects</h4>
+              <ul class="feature-list">
+                <li>Physics</li>
+                <li>Chemistry</li>
+                <li>Mathematics / Biology</li>
+              </ul>
+              <h4>Batch timings</h4>
+              <p class="meta">Morning 7:00 AM – 9:30 AM<br />Evening 5:30 PM – 8:00 PM</p>
+            </article>
+
+            <!-- Course 3 -->
+            <article class="card card-highlight">
+              <p class="card-badge">Competitive</p>
+              <h3>Competitive Exams (JEE / NEET)</h3>
+              <p class="card-lead">Problem-solving drills, mock tests, and rank-oriented mentoring.</p>
+              <h4>Subjects</h4>
+              <ul class="feature-list">
+                <li>JEE: Physics, Chemistry, Maths</li>
+                <li>NEET: Physics, Chemistry, Biology</li>
+                <li>Weekly full-length mocks</li>
+              </ul>
+              <h4>Batch timings</h4>
+              <p class="meta">Weekdays 6:00 PM – 8:30 PM<br />Sunday test series 10:00 AM</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           WHY CHOOSE US: four selling points
+           ========================================================= -->
+      <section id="why-us" class="section section-alt">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Our difference</p>
+            <h2>Why Choose Us</h2>
+            <p>Simple systems that keep students consistent and parents informed.</p>
+          </header>
+
+          <div class="points-grid">
+            <article class="point-card">
+              <span class="point-icon" aria-hidden="true">01</span>
+              <h3>Experienced Teachers</h3>
+              <p>Subject specialists with 8–15 years of classroom and exam-prep experience.</p>
+            </article>
+            <article class="point-card">
+              <span class="point-icon" aria-hidden="true">02</span>
+              <h3>Small Batches</h3>
+              <p>Limited seats so every student gets time at the board and personal feedback.</p>
+            </article>
+            <article class="point-card">
+              <span class="point-icon" aria-hidden="true">03</span>
+              <h3>Weekly Tests</h3>
+              <p>Short tests every week plus parent updates so gaps are found early.</p>
+            </article>
+            <article class="point-card">
+              <span class="point-icon" aria-hidden="true">04</span>
+              <h3>Doubt-Clearing Sessions</h3>
+              <p>Dedicated slots after class and on weekends for one-to-one doubt solving.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           FACULTY: three teacher cards with photo placeholders
+           ========================================================= -->
+      <section id="faculty" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Meet the team</p>
+            <h2>Faculty</h2>
+            <p>Teachers who explain patiently and train students for both boards and entrance exams.</p>
+          </header>
+
+          <div class="card-grid faculty-grid">
+            <article class="card faculty-card">
+              <!-- Placeholder photo: replace src with a real photo later -->
+              <img
+                src="https://placehold.co/320x320/1e4d8c/ffffff?text=AS"
+                alt="Placeholder photo of Ananya Sharma"
+                width="320"
+                height="320"
+              />
+              <h3>Ananya Sharma</h3>
+              <p class="role">Physics</p>
+              <p class="meta">M.Sc. Physics, IIT-JEE mentor · 12 years teaching</p>
+            </article>
+
+            <article class="card faculty-card">
+              <img
+                src="https://placehold.co/320x320/ff7a18/ffffff?text=RK"
+                alt="Placeholder photo of Rohan Kapoor"
+                width="320"
+                height="320"
+              />
+              <h3>Rohan Kapoor</h3>
+              <p class="role">Chemistry</p>
+              <p class="meta">M.Sc. Organic Chemistry · NEET faculty · 10 years teaching</p>
+            </article>
+
+            <article class="card faculty-card">
+              <img
+                src="https://placehold.co/320x320/0f2a4a/ffffff?text=PM"
+                alt="Placeholder photo of Priya Mehta"
+                width="320"
+                height="320"
+              />
+              <h3>Priya Mehta</h3>
+              <p class="role">Mathematics</p>
+              <p class="meta">M.Tech (IIT) · Board & JEE Maths · 9 years teaching</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           RESULTS: key stats
+           ========================================================= -->
+      <section id="results" class="section results">
+        <div class="container">
+          <header class="section-header section-header-light">
+            <p class="eyebrow">Outcomes</p>
+            <h2>Results That Speak</h2>
+            <p>Placeholder figures — replace these with your latest batch numbers.</p>
+          </header>
+
+          <div class="stats-grid">
+            <article class="stat-card">
+              <p class="stat-number">500+</p>
+              <p class="stat-label">Students guided</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-number">95%</p>
+              <p class="stat-label">Board pass rate</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-number">80+</p>
+              <p class="stat-label">JEE / NEET selections</p>
+            </article>
+            <article class="stat-card">
+              <p class="stat-number">12</p>
+              <p class="stat-label">Years of coaching</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           TESTIMONIALS: student / parent reviews
+           ========================================================= -->
+      <section id="testimonials" class="section">
+        <div class="container">
+          <header class="section-header">
+            <p class="eyebrow">Voices</p>
+            <h2>Testimonials</h2>
+            <p>What families say about learning with us.</p>
+          </header>
+
+          <div class="card-grid testimonials-grid">
+            <blockquote class="card quote-card">
+              <p>
+                “The weekly tests kept my daughter consistent. Her Maths score went from 62 to 91 in one term.”
+              </p>
+              <footer>
+                <cite>Meera Iyer</cite>
+                <span>Parent, Class 10</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="card quote-card">
+              <p>
+                “Small batches meant I could ask every doubt. The JEE mock series felt just like the real exam.”
+              </p>
+              <footer>
+                <cite>Arjun Nair</cite>
+                <span>Student, JEE batch</span>
+              </footer>
+            </blockquote>
+
+            <blockquote class="card quote-card">
+              <p>
+                “Teachers explain slowly and share notes the same day. We always know where our son stands.”
+              </p>
+              <footer>
+                <cite>Sanjay Patel</cite>
+                <span>Parent, Class 12 Science</span>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           CONTACT: address, phone, WhatsApp, enquiry form layout
+           Form has no JavaScript — it is a visual layout only
+           ========================================================= -->
+      <section id="contact" class="section section-alt">
+        <div class="container contact-layout">
+          <div class="contact-info">
+            <header class="section-header section-header-left">
+              <p class="eyebrow">Get in touch</p>
+              <h2>Book a Free Demo Class</h2>
+              <p>Visit the centre, call us, or send a WhatsApp message. We reply within one working day.</p>
+            </header>
+
+            <address>
+              <p>
+                <strong>Address</strong><br />
+                12, Learning Lane, Near City Library<br />
+                Sample Nagar, Your City — 400001
+              </p>
+              <p>
+                <strong>Phone</strong><br />
+                <a href="tel:+919876543210">+91 98765 43210</a>
+              </p>
+              <p>
+                <strong>Hours</strong><br />
+                Mon–Sat · 7:00 AM – 8:30 PM
+              </p>
+            </address>
+
+            <!-- WhatsApp: replace the number in the link with your real WhatsApp number -->
+            <a
+              class="btn btn-whatsapp"
+              href="https://wa.me/919876543210?text=Hi%2C%20I%20would%20like%20to%20book%20a%20free%20demo%20class."
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Chat on WhatsApp
+            </a>
+          </div>
+
+          <form class="card enquiry-form" action="#" method="get">
+            <h3>Enquiry form</h3>
+            <p class="form-note">This form is a layout only (no backend). Replace action when you add a server.</p>
+
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your full name" />
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="10-digit mobile number" />
+
+            <label for="class">Class</label>
+            <select id="class" name="class">
+              <option value="">Select class / course</option>
+              <option>Class 9–10</option>
+              <option>Class 11–12 Science</option>
+              <option>JEE</option>
+              <option>NEET</option>
+            </select>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" placeholder="Tell us the subject and preferred batch time"></textarea>
+
+            <button class="btn btn-accent" type="submit">Send enquiry</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- =========================================================
+         FOOTER: quick links and copyright
+         ========================================================= -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <p class="logo"><span class="logo-mark">XYZ</span> Tuition Class</p>
+          <p>Quality coaching for school boards and competitive exams.</p>
+        </div>
+
+        <nav aria-label="Footer">
+          <h2>Quick links</h2>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#results">Results</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+
+        <div>
+          <h2>Contact</h2>
+          <p>Sample Nagar, Your City</p>
+          <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+        </div>
+      </div>
+      <p class="copyright">© 2026 XYZ Tuition Class. All rights reserved. Placeholder content for demonstration.</p>
+    </footer>
+  </body>
+</html>
